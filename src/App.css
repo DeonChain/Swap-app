@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+  background-color: #ccc;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navlink {
+  margin-left: 50px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navlink:hover {
+  background-color: rgb(149, 255, 0);
+}
+
+.navlink.active {
+  background-color: yellow;
+}
+
+.navbar{
+  text-align: left;
+  width: auto;
+  background-color: bisque;
+
+}
+
+
+.trade-box {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.trade-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.trade-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.trade-box label {
+  margin-top: 10px;
+}
+
+.trade-box select,
+.trade-box input[type="number"],
+.trade-box button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+}
+
+.trade-box select {
+  width: 100%;
+}
+
+.trade-box button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.trade-box button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.trade-box button[type="submit"]:active {
+  background-color: #005cbf;
+}
+
+.homepage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.currency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.currency img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.currency h3 {
+  margin: 0;
+}
+
+.currency p {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.currency a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+

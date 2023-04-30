@@ -1,0 +1,32 @@
+.wallet-box{
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.wallet {
+    background-color: blueviolet;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+table{
+    padding-top: 50px;
+    margin:auto;
+    width: 60%;
+}
+
+table tr td {
+
+    border: 1px solid black;
+
+}
+
+td{
+    padding-left: 2px;
+    width: 100px;
+}
+
